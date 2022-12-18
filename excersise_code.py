@@ -1,3 +1,11 @@
+import sys
+
+sys.path.append('..')
+import numpy as np
+from scipy.io import loadmat
+from os.path import join
+from matplotlib import pyplot
+
 # in this file we will add the code from the exercise
 import numpy as np
 
@@ -5,7 +13,7 @@ import numpy as np
 def  featureNormalize(X):
     """
     Normalizes the features in X. returns a normalized version of X where
-    the mean value of each feature is 0 and the standard deviation
+    the mean value of  xeach feature is 0 and the standard deviation
     is 1. This is often a good preprocessing step to do when working with
     learning algorithms.
     
@@ -51,3 +59,4 @@ def  featureNormalize(X):
         X_norm[:,i] = X_norm[:,i] / sigma[i]
     # ================================================================
     return X_norm
+

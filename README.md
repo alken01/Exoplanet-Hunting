@@ -22,4 +22,4 @@ Exoplanet hunting in deep space is done by tracking a star over several months o
 ## **Poster**
 ![Poster](Poster.jpg)
 
-## Paper is available [here](/ML%20Paper.pdf)
+## Paper is available [here](/Paper.pdf)
